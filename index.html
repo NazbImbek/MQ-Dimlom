@@ -584,5 +584,63 @@
       </a>
     </div>
   </footer>
+
+  <div class="_hidden">
+    <div class="popup">
+      <div class="popup__container">
+        <div class="feedback">
+          <header class="feedback__header">
+            <h3 class="feedback-title">ваш фидбэк</h3>
+          </header>
+          <div class="feedback__content">
+            <form class="feedback__form">
+              <div class="form__row">
+                <label class="select-group">
+                  <span class="form__hint">Как часто вы заходите на сайт?</span>
+                  <select class="select">
+                    <option value="group">почти каждый день</option>
+                    <option value="group">раз в неколько дней</option>
+                    <option value="group">раз в неколько недель</option>
+                    <option value="group">неколько раз в год</option>
+                  </select>
+                </label>
+  
+              </div>
+  
+              <div class="form__row">
+                <div class="form-group">
+                  <span class="form__hint">Вы подписаны на e-mail рассылку?</span>
+                  <div class="check">
+                    <div class="form-radio">
+                      <input type="radio" class="radio-check" id="radio-group" name="radio-group" value="yes" required>
+                      <label for="radio-group">Да</label>
+                    </div>
+                    <div class="form-radio">
+                      <input type="radio" class="radio-check" id="radio-group-two" name="radio-group" value="yes" required>
+                      <label for="radio-group-two">Нет</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="form__row">
+                <label class="form__label">
+                  <span class="form__hint">Расскажите, какой контент вы хотите увидеть на нашем сейте?</span>
+                  <textarea class="field" placeholder="Может, больше рецептов?" rows="6" required></textarea>
+                </label>
+              </div>
+  
+              <div class="form__row">
+                <button class="button">Отправить</button>
+              </div>
+  
+            </form>
+          </div>
+        </div>
+        <button class="popup__close" type="button">Закрыть окно</button>
+      </div>
+    </div>
+  
+  </div>
 </body>
 </html>
